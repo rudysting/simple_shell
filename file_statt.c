@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * file_stat - interpretes the command after tokenization
+ * @cmd: entered command
+ * @argv: command line arguments
+ */
 void file_stat(char *cmd, char **argv)
 {
 	int i = 0;

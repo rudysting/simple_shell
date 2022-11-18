@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * tokenizer -  converts input to command line arguments
+ * @cmd: command entered
+ * Return: char
+ */
 char **tokenizer(char *cmd)
 {
 	char *cmdcpy = NULL, *token = NULL;
